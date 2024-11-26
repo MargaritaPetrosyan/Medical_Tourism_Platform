@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login-register.css" />
+    <!-- Optional if you want styles -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="header-placeholder"></div>
+
+    <div class="auth-container">
+      <div class="auth-card">
+        <h2>Sign in</h2>
+        <p>Log in with your HealMount account</p>
+        <form id="loginForm">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="loginEmail"
+              placeholder="email@address.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="email"
+              id="forgotEmail"
+              placeholder="email@address.com"
+              required
+            />
+          </div>
+          <button type="submit" class="btn btn-primary custom-login-button">
+            Log in
+          </button>
+        </form>
+        <p><a href="#" id="forgotPasswordLink">Forgot your password?</a></p>
+        <p>New here? <a href="register.html">Create an account</a></p>
+      </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="forgotPasswordModal" class="modal">
+      <div class="auth-card">
+        <h2>Set a new password</h2>
+        <p>
+          Don't worry! We can help you safely retrieve your account information.
+          Enter your account email address, and we’ll email you a link to set a
+          new password.
+        </p>
+        <form id="forgotPasswordForm">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="email@address.com"
+              required
+            />
+          </div>
+          <button type="submit" class="btn btn-primary custom-send-button">
+            Send link
+          </button>
+        </form>
+        <button class="close-modal">Close</button>
+      </div>
+    </div>
+
+    <script src="footer.js"></script>
+    <script src="script.js"></script>
+    <script src="login.js"></script>
+    <script src="header.js"></script>
+  </body>
+</html>

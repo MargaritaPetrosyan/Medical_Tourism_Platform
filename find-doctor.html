@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find a Doctor</title>
+    <link rel="stylesheet" href="find-doctor.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="header-placeholder"><div>
+
+    <main>
+      <section class="find-doctor">
+        <h1 class="section-title">Search Doctor</h1>
+        <div class="search-bar">
+          <input type="text" placeholder="Search for..." class="search-input" />
+          <i class="fas fa-search search-icon"></i>
+        </div>
+
+        <h2 class="sub-title">Qualified Doctors</h2>
+        <p class="description">
+          Handled directly by general doctors and professional and experienced
+          specialists doctors.
+        </p>
+
+        <div class="doctor-section">
+          <div class="doctor-card">
+            <h3>Dr. Arevik Petrosyan</h3>
+            <p>Dermatology, Armenia<br />Vardanian’s Clinic</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+
+          <div class="doctor-image">
+            <img
+              src="images/doctor1.jpg"
+              alt="Doctor Arevik"
+              class="rounded-image"
+            />
+            <div class="carousel-controls">
+              <i class="fas fa-chevron-left"></i>
+              <i class="fas fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn btn-primary view-all">View All Doctors</button>
+      </section>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="find-doctor.js"></script>
+    <script src="header.js"></script>
+    <script src="footer.js"></script>
+  </body>
+</html>

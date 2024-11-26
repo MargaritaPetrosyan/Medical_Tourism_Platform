@@ -1,0 +1,112 @@
+body {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9ff;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contact-background {
+  background-color: #ecf4fc;
+  padding: 3rem 0;
+  border-radius: 25px;
+  position: relative;
+  max-width: 90%;
+  margin: auto;
+}
+
+/* Left Text Section Styling */
+.text-left {
+  color: #1a1a1a;
+}
+
+.contact-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font: Mulish;
+}
+
+.schedule-call-button {
+  background-color: #6d98d9;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 2px;
+}
+
+/* Contact Details */
+.contact-details h5 {
+  font-weight: 700;
+  margin-top: 2rem;
+  color: #333;
+}
+
+.linkedin-link {
+  display: flex;
+  align-items: center;
+  color: #6d98d9;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.linkedin-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
+
+/* Right Column Form Styling */
+.contact-form-wrapper {
+  background-color: #87aee7;
+  opacity: 90%;
+  /* Blue background */
+  padding: 2rem;
+  border-radius: 12px;
+  color: #ffffff;
+}
+
+.form-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.partner-form {
+  background-color: #ecf4fc;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #6d98d9;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #567faa;
+}
+
+#otherInput {
+  display: none;
+  margin-top: -1rem;
+}
