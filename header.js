@@ -16,6 +16,7 @@ document.getElementById("header-placeholder").innerHTML = `<head>
                     <a href="index.html" class="nav-link">Home<i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown-menu">
                         <a href="index.html#services" class="dropdown-link">Our Services</a>
+                        <a href="index.html#armenia" class="dropdown-link">Why Armenia</a>
                         <a href="index.html#latest-news" class="dropdown-link">Latest News</a>
                         <a href="index.html#articles" class="dropdown-link">Articles</a>
                         <a href="index.html#contact" class="dropdown-link">Contact with Us</a>
@@ -38,7 +39,6 @@ document.getElementById("header-placeholder").innerHTML = `<head>
                     </div>
                 </li>
                 <li class="nav-item"><a href="clinics.html" class="nav-link">Clinics</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
                 <li class="nav-item"><a href="partner.html" class="nav-link">Become a partner</a></li>
             </ul>
         </nav>

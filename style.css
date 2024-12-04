@@ -64,6 +64,46 @@ h1 {
   /* Ensure content stays in place */
 }
 
+.armenia {
+  display: flex;
+  align-items: center;
+  background-color: #ecf4fc;
+  padding: 3rem 5%;
+  border-radius: 25px;
+  position: relative;
+  max-width: 90%;
+  margin: auto;
+  opacity: 95%;
+}
+
+.armenia-title {
+  font-size: 2rem;
+  /* Resize the heading */
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  /* Light color to make it subtle */
+  position: absolute;
+  top: 20%;
+  /* Adjust the vertical position */
+  transform: translateY(-50%);
+  /* Center the text vertically */
+  z-index: 1;
+  margin-left: 15px;
+}
+
+.armenia-description {
+  margin-top: 0rem;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 20%;
+  margin-left: 15px;
+  /* Moves the text 140px to the left */
+  line-height: 1.6;
+
+  /* Adjust the vertical position */
+  transform: translateY(-50%);
+}
+
 /* Hero Title Positioned Behind the Image */
 .hero-title {
   font-size: 2rem;
